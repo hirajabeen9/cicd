@@ -1,4 +1,4 @@
-name: CI/CD Workflow
+name: CI/CD Workflow DEMO
 
 on:
   push:
@@ -34,4 +34,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public  # Adjust if your static files are in a different directory
+          publish_dir: ./public  
